@@ -832,21 +832,6 @@ body
    -moz-transition: transform 500ms ease-out 0ms;
    transition: transform 500ms ease-out 0ms;
 }
-#MergedObject1
-{
-   -webkit-transition: all 500ms ease-out 0ms;
-   -moz-transition: all 500ms ease-out 0ms;
-   transition: all 500ms ease-out 0ms;
-}
-#MergedObject1:hover
-{
-   -webkit-transform: translate(-100px,0px) rotate(0deg) ;
-   -moz-transform: translate(-100px,0px) rotate(0deg) ;
-   transform: translate(-100px,0px) rotate(0deg) ;
-   -webkit-transition: -webkit-transform 500ms ease-out 0ms;
-   -moz-transition: transform 500ms ease-out 0ms;
-   transition: transform 500ms ease-out 0ms;
-}
 #MergedObject2
 {
    -webkit-transition: all 500ms ease-out 0ms;
@@ -862,13 +847,13 @@ body
    -moz-transition: transform 500ms ease-out 0ms;
    transition: transform 500ms ease-out 0ms;
 }
-#MergedObject3
+#MergedObject4
 {
    -webkit-transition: all 500ms ease-out 0ms;
    -moz-transition: all 500ms ease-out 0ms;
    transition: all 500ms ease-out 0ms;
 }
-#MergedObject3:hover
+#MergedObject4:hover
 {
    -webkit-transform: translate(-100px,0px) rotate(0deg) ;
    -moz-transform: translate(-100px,0px) rotate(0deg) ;
@@ -876,4 +861,87 @@ body
    -webkit-transition: -webkit-transform 500ms ease-out 0ms;
    -moz-transition: transform 500ms ease-out 0ms;
    transition: transform 500ms ease-out 0ms;
+}
+#wb_FontAwesomeIcon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon1
+{
+   height: 35px;
+   width: 39px;
+}
+#FontAwesomeIcon1 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 35px;
+   line-height: 35px;
+   vertical-align: middle;
+   width: 29px;
+}
+#wb_FontAwesomeIcon1:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon3:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon3
+{
+   height: 25px;
+   width: 25px;
+}
+#FontAwesomeIcon3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 25px;
+   line-height: 25px;
+   vertical-align: middle;
+   width: 20px;
+}
+#wb_FontAwesomeIcon3:hover i
+{
+   color: #FFFFFF;
+}
+#MergedObject1:hover
+{
+   -webkit-transform: translate(-100px,0px) rotate(0deg) ;
+   -moz-transform: translate(-100px,0px) rotate(0deg) ;
+   transform: translate(-100px,0px) rotate(0deg) ;
+   -webkit-transition: -webkit-transform 500ms ease-out 0ms;
+   -moz-transition: transform 500ms ease-out 0ms;
+   transition: transform 500ms ease-out 0ms;
+}
+#MergedObject1
+{
+   -webkit-transition: all 500ms ease-out 0ms;
+   -moz-transition: all 500ms ease-out 0ms;
+   transition: all 500ms ease-out 0ms;
 }
