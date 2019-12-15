@@ -5,22 +5,100 @@
 <title>Безымянная страница</title>
 <meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/Безымянный1.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/WS-Official.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/transition.min.js"></script>
+<script src="js/collapse.min.js"></script>
+<script src="js/dropdown.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   $(document).on('click','.ThemeableMenu1-navbar-collapse.in',function(e)
+   {
+      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+      {
+         $(this).collapse('hide');
+      }
+   });
+});
+</script>
 </head>
 <body>
 <div id="container">
 </div>
-<div id="wb_LayoutGrid1">
-<div id="LayoutGrid1">
+<div id="wb_header">
+<div id="header">
 <div class="row">
 <div class="col-1">
-<div id="wb_TextArt1" style="display:inline-block;width:530px;height:177px;z-index:0;position:relative;">
-<img src="images/img0001.png" id="TextArt1" alt="Welcome to VS-OFFICIAL" title="Welcome to VS-OFFICIAL" style="width:530px;height:177px;">
+<div id="wb_Breadcrumb1" style="display:inline-block;width:100%;z-index:0;vertical-align:top;">
+<ul id="Breadcrumb1">
+<li class="active" aria-current="page"><i class="fa fa-bolt">&nbsp;</i>WS</li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_ThemeableMenu1" style="display:inline-block;width:100%;z-index:1001;">
+<div id="ThemeableMenu1" class="ThemeableMenu1" style ="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu1-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="ThemeableMenu1-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="">
+<a href="./index.html#home">Главная</a>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Сервисы<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="./index.html#services1">Service #1</a></li>
+<li><a href="./index.html#services1">Service #2</a></li>
+<li><a href="./index.html#services2">Service #3</a></li>
+<li><a href="./index.html#services2">Service #4</a></li>
+</ul>
+</li>
+<li class="">
+<a href="./index.html#portfolio">Portfolio</a>
+</li>
+<li class="">
+<a href="./index.html#about">About</a>
+</li>
+<li class="">
+<a href="./index.html#contact">Контакты</a>
+</li>
+</ul>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div id="socialmedia_sticky" style="position:fixed;text-align:left;left:auto;right:-130px;top:125px;width:164px;height:460px;z-index:12;" title="Social Media Sticky">
+<a href="#"><img src="images/img0001.png" id="socialmedia_facebook" alt="" title="" style="border-width:0;position:absolute;left:0px;top:1px;width:150px;height:45px;z-index:2"></a>
+<a href="#"><img src="images/img0004.png" id="socialmedia_linkedin" alt="" title="" style="border-width:0;position:absolute;left:0px;top:136px;width:150px;height:45px;z-index:3"></a>
+<a href="#"><img src="images/img0006.png" id="socialmedia_rss" alt="" title="" style="border-width:0;position:absolute;left:0px;top:271px;width:150px;height:45px;z-index:4"></a>
+<a href="#"><img src="images/img0007.png" id="socialmedia_youtube" alt="" title="" style="border-width:0;position:absolute;left:0px;top:181px;width:150px;height:45px;z-index:5"></a>
+<a href="#"><img src="images/img0009.png" id="socialmedia_vimeo" alt="" title="" style="border-width:0;position:absolute;left:0px;top:226px;width:150px;height:45px;z-index:6"></a>
+<a href="#"><img src="images/img0003.png" id="socialmedia_pinterest" alt="" title="" style="border-width:0;position:absolute;left:0px;top:91px;width:150px;height:45px;z-index:7"></a>
+<a href="#"><img src="images/img0002.png" id="MergedObject2" alt="" title="" style="border-width:0;position:absolute;left:0px;top:46px;width:150px;height:45px;z-index:8"></a>
+<a href="#"><img src="images/img0008.png" id="MergedObject1" alt="" title="" style="border-width:0;position:absolute;left:0px;top:406px;width:150px;height:45px;z-index:9"></a>
+<a href="#"><img src="images/img0005.png" id="socialmedia_stumleupon" alt="" title="" style="border-width:0;position:absolute;left:0px;top:361px;width:150px;height:45px;z-index:10"></a>
+<img src="images/img0010.png" id="MergedObject3" alt="" title="" style="border-width:0;position:absolute;left:0px;top:316px;width:150px;height:45px;z-index:11">
 </div>
 </body>
 </html>
